@@ -1,0 +1,98 @@
+name: Bug report
+description: Report a reproducible problem in RenamerX
+title: "[Bug]: "
+labels:
+  - bug
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Remove confidential filenames, paths, document contents, API keys, license keys, personal data, and client information. Do not upload real sensitive files or unredacted diagnostic archives.
+  - type: input
+    id: version
+    attributes:
+      label: RenamerX version
+      placeholder: "For example: 1.2.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating-system version
+      placeholder: "For example: macOS 15.6 or Windows 11 24H2"
+    validations:
+      required: true
+  - type: dropdown
+    id: install-channel
+    attributes:
+      label: Installation channel
+      options:
+        - Homebrew Cask
+        - RenamerX website
+        - Microsoft Store
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: provider
+    attributes:
+      label: Active AI provider
+      options:
+        - RenamerX Built-in
+        - Ollama
+        - LM Studio
+        - OpenAI
+        - Google Gemini
+        - Custom
+        - Not applicable
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the visible problem and the workflow in which it occurred.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: redacted-details
+    attributes:
+      label: Redacted error details
+      description: Paste only details that have been checked and redacted. Use synthetic filenames when possible.
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed private filenames, paths, document content, secrets, license information, personal data, and client information.
+          required: true
+        - label: I searched existing issues and confirmed that this occurs in the latest version available through my installation channel.
+          required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: RenamerX documentation
+    url: https://renamerx.com/docs
+    about: Read setup, workflow, provider, privacy, and troubleshooting guidance.
+  - name: Private support
+    url: https://renamerx.com/docs/help-support/troubleshooting
+    about: Use the private support channel for purchases, licenses, accounts, or sensitive information.
