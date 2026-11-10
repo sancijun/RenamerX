@@ -40,13 +40,7 @@ RenamerX 读取支持的文档、图片和视频，将 `scan001.pdf`、`IMG_4821
 
 ### macOS
 
-通过 Homebrew 安装已签名并经过 Apple 公证的通用版本：
-
-```bash
-brew install --cask renamerx
-```
-
-也可以从 [RenamerX 官网](https://renamerx.com/zh/)下载当前 macOS 版本。
+从 [RenamerX 官网](https://renamerx.com/zh/)下载当前 macOS 版本。
 
 ### Windows
 
