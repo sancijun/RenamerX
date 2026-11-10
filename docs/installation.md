@@ -4,19 +4,7 @@ RenamerX officially supports macOS and Windows.
 
 ## macOS
 
-Install the signed and notarized universal application with Homebrew:
-
-```bash
-brew install --cask renamerx
-```
-
-Upgrade through Homebrew:
-
-```bash
-brew upgrade --cask renamerx
-```
-
-You can also download the current disk image from [renamerx.com](https://renamerx.com/). RenamerX checks for signed macOS updates inside the application.
+Download the current macOS installer from [renamerx.com](https://renamerx.com/). RenamerX checks for signed macOS updates inside the application.
 
 ## Windows
 
