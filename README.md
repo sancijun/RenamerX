@@ -10,8 +10,6 @@
 
 <p align="center">
   <a href="https://renamerx.com/"><img alt="Website" src="https://img.shields.io/badge/Website-renamerx.com-111111"></a>
-  <a href="CHANGELOG.md"><img alt="Latest version" src="https://img.shields.io/badge/Latest-v1.2.2-2563EB"></a>
-  <a href="https://formulae.brew.sh/cask/renamerx"><img alt="Homebrew Cask" src="https://img.shields.io/badge/Homebrew-Cask-FBB040?logo=homebrew&logoColor=111111"></a>
   <a href="https://apps.microsoft.com/detail/9N03KWP1XM0D"><img alt="Microsoft Store" src="https://img.shields.io/badge/Microsoft-Store-0078D4?logo=microsoft"></a>
   <img alt="Platforms" src="https://img.shields.io/badge/Platforms-macOS%20%7C%20Windows-555555">
 </p>
@@ -52,13 +50,7 @@ RenamerX reads supported documents, images, and videos and turns names such as `
 
 ### macOS
 
-Install the signed and notarized universal app through Homebrew:
-
-```bash
-brew install --cask renamerx
-```
-
-You can also download the current macOS release from the [official website](https://renamerx.com/).
+Download the current macOS release from the [official website](https://renamerx.com/).
 
 ### Windows
 
