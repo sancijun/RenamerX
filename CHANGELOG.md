@@ -27,5 +27,5 @@ RenamerX v1.2.2 officially supports macOS and Windows. Linux is not an officiall
 
 ## Update channels
 
-- macOS: install with `brew install --cask renamerx` or download from [renamerx.com](https://renamerx.com/).
+- macOS: download from [renamerx.com](https://renamerx.com/).
 - Windows: install and update through [Microsoft Store](https://apps.microsoft.com/detail/9N03KWP1XM0D).
